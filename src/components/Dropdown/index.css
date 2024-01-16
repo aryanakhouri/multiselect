@@ -1,0 +1,23 @@
+.Dropdown {
+    top: 150px;
+    background-color: rgb(250, 213, 165);
+    z-index: 1;
+    position: absolute;
+    max-height: 400px;
+    border: 2px solid black;
+    overflow: scroll;
+    box-shadow: 8px 7px 17px 0px;
+}
+
+.Dropdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.Dropdown-img {
+    width: 20px;
+}
